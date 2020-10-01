@@ -5,9 +5,12 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "SauceCodePro Nerd Font Mono:style=Regular:pixelsize=13:antialias=true:autohint=true";
+/* static char *font = "SauceCodePro Nerd Font Mono:style=Regular:pixelsize=15:antialias=true:autohint=true"; */
 /* static char *font = "FiraCode Nerd Font:pixelsize=12:antialias=true:autohint=true"; */
-static int borderpx = 2;
+static char *font = "FiraCode Nerd Font Mono:pixelsize=15:antialias=true:autohint=true";
+// needs font2 patch
+/* static char *font2[] = { "JoyPixels:pixelsize=15:antialias=true:autohint=true" }; */
+static int borderpx = 30;
 
 /*
  * What program is execed by st depends of these precedence rules:
